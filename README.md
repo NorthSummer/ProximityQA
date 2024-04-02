@@ -35,7 +35,7 @@ superior ability in depth perception and proximity
 analysis, outperforming other state-of-the-art
 MLLMs. 
 
-[![pqa_v2328ef108a8351dbc.md.jpeg](https://img.picgo.net/2024/04/02/pqa_v2328ef108a8351dbc.md.jpeg)](https://www.picgo.net/image/pqa-v2.SGZ0FM)
+![pqa_v2f4961c876370efe6.jpeg](https://img.picgo.net/2024/04/02/pqa_v2f4961c876370efe6.jpeg)
 
 ## Traing Data
 Our training data images originate from parts of the COCO and VG datasets. Regarding instruction data, we combine LLaVA-665K and Proximity-110K datasets for training, which can be accessed via [this link](https://huggingface.co/Electronics/ProximityQA/blob/main/llava_proximity-mix.json). The training pipline is the same with [LLaVA-1.5](https://github.com/haotian-liu/LLaVA?tab=readme-ov-file#visual-instruction-tuning). Moreover, we are optimizing our training data, which includes incorporating more conversation templates, QA-types, etc. The optimized data will be released soon.
